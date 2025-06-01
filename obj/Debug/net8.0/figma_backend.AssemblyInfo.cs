@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("figma_backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f781b21ce0f5e50d9de2b9d0c43350a22fc783da")]
 [assembly: System.Reflection.AssemblyProductAttribute("figma_backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("figma_backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
