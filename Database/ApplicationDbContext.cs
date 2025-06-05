@@ -62,7 +62,7 @@ namespace figma_backend.Database
             // Configuración de RoomUser
             modelBuilder.Entity<RoomUser>(entity =>
             {
-                entity.HasKey(u => u.ConnectionId);
+                entity.HasKey(ru => new { ru.RoomId, ru.UserId });
                 entity.Property(u => u.UserName).IsRequired().HasMaxLength(100);
                 entity.Property(u => u.RoomId).IsRequired();
                 entity.Property(u => u.UserId).IsRequired();
@@ -70,6 +70,11 @@ namespace figma_backend.Database
                 entity.HasOne(u => u.User)
                       .WithMany(u => u.RoomUsers)
                       .HasForeignKey(u => u.UserId)
+                      .OnDelete(DeleteBehavior.Restrict);
+
+                entity.HasOne(u => u.Room)
+                      .WithMany(r => r.ConnectedUsers)
+                      .HasForeignKey(u => u.RoomId)
                       .OnDelete(DeleteBehavior.Restrict);
             });
         }

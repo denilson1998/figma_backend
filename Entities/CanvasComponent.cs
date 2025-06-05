@@ -2,7 +2,7 @@
 {
     public class CanvasComponent
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Type { get; set; } // "button", "text", "image", "input"
         public int PositionX { get; set; }
         public int PositionY { get; set; }

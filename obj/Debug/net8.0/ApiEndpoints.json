@@ -69,6 +69,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "figma_backend.Controllers.RoomsController",
+    "Method": "GetAssignedUserRooms",
+    "RelativePath": "api/Rooms/GetAssignedUserRooms/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "figma_backend.Controllers.UserController",
     "Method": "GetAllUsers",
     "RelativePath": "api/User/GetAllUsers",

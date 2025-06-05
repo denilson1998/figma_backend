@@ -3,60 +3,32 @@
   "WorkspaceRootPath": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\hubs\\canvashub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:hubs\\canvashub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\entities\\canvascomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:entities\\canvascomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\entities\\canvasroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:entities\\canvasroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\models\\createroommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:models\\createroommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\entities\\roomuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:entities\\roomuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\models\\addusertoroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:models\\addusertoroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\hubs\\canvashub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:hubs\\canvashub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|c:\\projects\\annyprojects\\sw1\\2do parcial\\figma_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E984A10-DC30-4125-988D-EC2D6F9AB1A5}|figma_backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,138 +38,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T00:05:26.525Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
-              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Models\\LoginModel.cs",
-              "RelativeToolTip": "Models\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T05:09:57.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RoomUser.cs",
-              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Entities\\RoomUser.cs",
-              "RelativeDocumentMoniker": "Entities\\RoomUser.cs",
-              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Entities\\RoomUser.cs",
-              "RelativeToolTip": "Entities\\RoomUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T04:58:46.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Entities\\User.cs",
-              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Entities\\User.cs",
-              "RelativeToolTip": "Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T04:53:43.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CanvasHub.cs",
-              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Hubs\\CanvasHub.cs",
-              "RelativeDocumentMoniker": "Hubs\\CanvasHub.cs",
-              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Hubs\\CanvasHub.cs",
-              "RelativeToolTip": "Hubs\\CanvasHub.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAuwEcAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T00:42:50.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Database\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Database\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Database\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Database\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T04:31:56.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddUserToRoomDto.cs",
-              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Models\\AddUserToRoomDto.cs",
-              "RelativeDocumentMoniker": "Models\\AddUserToRoomDto.cs",
-              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Models\\AddUserToRoomDto.cs",
-              "RelativeToolTip": "Models\\AddUserToRoomDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T06:36:41.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CanvasRoom.cs",
-              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Entities\\CanvasRoom.cs",
-              "RelativeDocumentMoniker": "Entities\\CanvasRoom.cs",
-              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Entities\\CanvasRoom.cs",
-              "RelativeToolTip": "Entities\\CanvasRoom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T07:39:01.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateRoomModel.cs",
-              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Models\\CreateRoomModel.cs",
-              "RelativeDocumentMoniker": "Models\\CreateRoomModel.cs",
-              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Models\\CreateRoomModel.cs",
-              "RelativeToolTip": "Models\\CreateRoomModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T06:23:55.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowEIAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T07:31:36.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T02:03:15.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoomUser.cs",
+              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Entities\\RoomUser.cs",
+              "RelativeDocumentMoniker": "Entities\\RoomUser.cs",
+              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Entities\\RoomUser.cs",
+              "RelativeToolTip": "Entities\\RoomUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:36:15.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Database\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Database\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Database\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Database\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwD4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:35:14.157Z"
             },
             {
               "$type": "Document",
@@ -207,48 +84,47 @@
               "RelativeDocumentMoniker": "Controllers\\RoomsController.cs",
               "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Controllers\\RoomsController.cs",
               "RelativeToolTip": "Controllers\\RoomsController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAA3wHgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAiwFQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T06:20:59.598Z",
+              "WhenOpened": "2025-06-02T01:19:22.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Models\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "Models\\RegisterModel.cs",
-              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Models\\RegisterModel.cs",
-              "RelativeToolTip": "Models\\RegisterModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CanvasComponent.cs",
+              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Entities\\CanvasComponent.cs",
+              "RelativeDocumentMoniker": "Entities\\CanvasComponent.cs",
+              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Entities\\CanvasComponent.cs",
+              "RelativeToolTip": "Entities\\CanvasComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T05:10:13.474Z",
+              "WhenOpened": "2025-06-01T21:28:38.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-01T04:28:22.298Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T21:28:29.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CanvasHub.cs",
+              "DocumentMoniker": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Hubs\\CanvasHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\CanvasHub.cs",
+              "ToolTip": "C:\\Projects\\AnnyProjects\\SW1\\2do parcial\\figma_backend\\Hubs\\CanvasHub.cs",
+              "RelativeToolTip": "Hubs\\CanvasHub.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T00:04:17.978Z",
+              "WhenOpened": "2025-06-01T21:20:44.99Z",
               "EditorCaption": ""
             }
           ]

@@ -73,6 +73,25 @@ namespace figma_backend.Controllers
             return Ok(rooms);
         }
 
+        [HttpGet("GetAssignedUserRooms/{userId}")]
+        public async Task<IActionResult> GetAssignedUserRooms(int userId)
+        {
+            var assignedUserRooms = await _context.RoomUsers
+                .Where(ru => ru.UserId == userId)
+                .Include(ru => ru.User)
+                .Select(ru => new
+                {
+                    ru.User.UserId,
+                    ru.User.Username,
+                    ru.User.Email,
+                    ru.ConnectionId,
+                    ru.RoomId
+                })
+                .ToListAsync();
+
+            return Ok(assignedUserRooms);
+        }
+
         [HttpGet("{roomId}/users")]
         public async Task<IActionResult> GetRoomUsers(int roomId)
         {
