@@ -5,6 +5,38 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/IAGeneration/analyze": {
+      "post": {
+        "tags": [
+          "IAGeneration"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Rooms": {
       "post": {
         "tags": [

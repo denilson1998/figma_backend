@@ -69,15 +69,53 @@ namespace figma_backend.Hubs
 
         public async Task MoveComponent(int roomId, string componentId, int newX, int newY)
         {
-            if (_rooms.TryGetValue(roomId, out var room))
+            //if (_rooms.TryGetValue(roomId, out var room))
+            //{
+            //    var component = room.Components.FirstOrDefault(c => c.Id == componentId);
+            //    if (component != null)
+            //    {
+            //        component.PositionX = newX;
+            //        component.PositionY = newY;
+            //        await Clients.OthersInGroup(roomId.ToString()).SendAsync("ComponentMoved", componentId, newX, newY);
+            //    }
+            //}
+            try
             {
-                var component = room.Components.FirstOrDefault(c => c.Id == componentId);
-                if (component != null)
+                if (roomId <= 0 || string.IsNullOrEmpty(componentId))
                 {
-                    component.PositionX = newX;
-                    component.PositionY = newY;
-                    await Clients.OthersInGroup(roomId.ToString()).SendAsync("ComponentMoved", componentId, newX, newY);
+                    throw new ArgumentException("Invalid roomId or componentId");
                 }
+
+                if (!_rooms.TryGetValue(roomId, out var room))
+                {
+                    throw new KeyNotFoundException($"Room {roomId} not found");
+                }
+
+                var component = room.Components.FirstOrDefault(c => c.Id == componentId);
+                if (component == null)
+                {
+                    throw new KeyNotFoundException($"Component {componentId} not found in room {roomId}");
+                }
+
+                // Validación adicional para coordenadas (ajusta los límites según tu caso)
+                if (newX < 0 || newY < 0 || newX > 5000 || newY > 5000)
+                {
+                    throw new ArgumentOutOfRangeException($"Coordinates ({newX}, {newY}) are out of valid range");
+                }
+
+                // Actualiza las coordenadas
+                component.PositionX = newX;
+                component.PositionY = newY;
+
+                // Notifica a todos los clientes en la sala (excepto al que envió el movimiento)
+                await Clients.OthersInGroup(roomId.ToString())
+                    .SendAsync("ComponentMoved", componentId, newX, newY);
+            }
+            catch (Exception ex)
+            {
+                // Log del error (puedes usar ILogger si está disponible)
+                Console.WriteLine($"Error in MoveComponent: {ex.Message}");
+                throw; // Re-lanza la excepción para que SignalR la maneje
             }
         }
 
@@ -122,6 +160,27 @@ namespace figma_backend.Hubs
                 if (user != null)
                 {
                     await Clients.OthersInGroup(roomId.ToString()).SendAsync("DeviceSizeChanged", user.UserName, name, width, height);
+                }
+            }
+        }
+
+        public async Task UpdateComponent(int roomId, CanvasComponent updatedComponent)
+        {
+            if (_rooms.TryGetValue(roomId, out var room))
+            {
+                var existingComponent = room.Components.FirstOrDefault(c => c.Id == updatedComponent.Id);
+                if (existingComponent != null)
+                {
+                    // Actualiza todas las propiedades
+                    existingComponent.PositionX = updatedComponent.PositionX;
+                    existingComponent.PositionY = updatedComponent.PositionY;
+                    existingComponent.Width = updatedComponent.Width;
+                    existingComponent.Height = updatedComponent.Height;
+                    //existingComponent.FlutterCode = updatedComponent.FlutterCode;
+                    // ... otras propiedades
+
+                    await Clients.Group(roomId.ToString())
+                        .SendAsync("ComponentUpdated", updatedComponent);
                 }
             }
         }
