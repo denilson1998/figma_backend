@@ -21,14 +21,13 @@ namespace figma_backend.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateRoom([FromBody] CreateRoomModel createRoomDto)
         {
-            // Verificar si el usuario existe
+            
             var user = await _context.Users.FindAsync(createRoomDto.CreatorUserId);
             if (user == null)
             {
                 return NotFound("Usuario no encontrado");
             }
 
-            // Crear la nueva sala
             var newRoom = new CanvasRoom
             {
                 Name = createRoomDto.Name,
@@ -38,9 +37,6 @@ namespace figma_backend.Controllers
 
             _context.CanvasRooms.Add(newRoom);
             await _context.SaveChangesAsync();
-
-            // Registrar al creador como usuario conectado
-            // (En este punto solo creamos la sala, la conexión real se hará via SignalR)
 
             return Ok(new
             {
@@ -121,21 +117,18 @@ namespace figma_backend.Controllers
             if (user == null)
                 return NotFound("Usuario no encontrado");
 
-            // Verificar si el usuario ya está en la sala
             var existingUser = await _context.RoomUsers
                 .FirstOrDefaultAsync(ru => ru.RoomId == roomId && ru.UserId == dto.UserId);
 
             if (existingUser != null)
                 return BadRequest("El usuario ya está en esta sala");
 
-            // En una implementación real, aquí habría lógica de invitación/permisos
-
             var roomUser = new RoomUser
             {
                 RoomId = roomId,
                 UserId = dto.UserId,
                 UserName = user.Username,
-                ConnectionId = dto.ConnectionId ?? "offline" // Temporal hasta conexión SignalR
+                ConnectionId = dto.ConnectionId ?? "offline"
             };
 
             _context.RoomUsers.Add(roomUser);

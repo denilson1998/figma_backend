@@ -37,6 +37,49 @@
         }
       }
     },
+    "/api/IAGeneration/generate-from-prompt": {
+      "post": {
+        "tags": [
+          "IAGeneration"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PromptRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PromptRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PromptRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/IAGeneration/test-connection": {
+      "get": {
+        "tags": [
+          "IAGeneration"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Rooms": {
       "post": {
         "tags": [
@@ -334,6 +377,16 @@
             "nullable": true
           },
           "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PromptRequest": {
+        "type": "object",
+        "properties": {
+          "prompt": {
             "type": "string",
             "nullable": true
           }

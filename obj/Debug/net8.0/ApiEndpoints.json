@@ -16,6 +16,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "figma_backend.Controllers.IAGenerationController",
+    "Method": "GenerateFromPrompt",
+    "RelativePath": "api/IAGeneration/generate-from-prompt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "figma_backend.Controllers.PromptRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "figma_backend.Controllers.IAGenerationController",
+    "Method": "TestConnection",
+    "RelativePath": "api/IAGeneration/test-connection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "figma_backend.Controllers.RoomsController",
     "Method": "CreateRoom",
     "RelativePath": "api/Rooms",
