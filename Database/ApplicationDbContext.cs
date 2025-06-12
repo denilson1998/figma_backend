@@ -36,20 +36,17 @@ namespace figma_backend.Database
                 entity.Property(r => r.CreatedAt).HasDefaultValueSql("GETUTCDATE()");
                 entity.Property(r => r.CreatorUserId).IsRequired();
 
-                // Relación uno-a-muchos con CanvasComponent
                 entity.HasMany(r => r.Components)
                      .WithOne()
                      .HasForeignKey(c => c.RoomId)
                      .OnDelete(DeleteBehavior.Cascade);
 
-                // Relación uno-a-muchos con RoomUser
                 entity.HasMany(r => r.ConnectedUsers)
                      .WithOne()
                      .HasForeignKey(u => u.RoomId)
                      .OnDelete(DeleteBehavior.Restrict);
             });
 
-            // Configuración de CanvasComponent
             modelBuilder.Entity<CanvasComponent>(entity =>
             {
                 entity.HasKey(c => c.Id);
@@ -59,7 +56,6 @@ namespace figma_backend.Database
                 entity.Property(c => c.RoomId).IsRequired();
             });
 
-            // Configuración de RoomUser
             modelBuilder.Entity<RoomUser>(entity =>
             {
                 entity.HasKey(ru => new { ru.RoomId, ru.UserId });
