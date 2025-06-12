@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("1b927722-5085-4113-9c7e-35843d65ae6e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("figma_backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bc1be8c5f66f27158e6f8713bab6bfba9fb4ca7")]
 [assembly: System.Reflection.AssemblyProductAttribute("figma_backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("figma_backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,23 @@
+# version: '3.8'
+
+# services:
+#   figma:
+#     image: ${DOCKER_REGISTRY-}figma-api
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     ports:
+#       - "5000:80"
+#     environment:
+#       - ASPNETCORE_ENVIRONMENT=Development
+services:
+  figma:
+    container_name: figma-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    restart: always
